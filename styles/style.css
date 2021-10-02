@@ -5,7 +5,7 @@
 body {
     margin: 0;
     padding: 0;
-    /* font-size: 18px; */
+    font-size: 18px;
 }
 
 .container {
@@ -356,10 +356,10 @@ body {
     }
 
     /* Main Container */
-    /* .container {
+    .container {
         max-width: 1440px;
         margin: 0 auto;
-    } */
+    }
 
     /* Header Section */
     .header-container {
