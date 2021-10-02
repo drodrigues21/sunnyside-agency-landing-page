@@ -8,8 +8,8 @@ body {
 }
 
 .container {
-    /* width: 100%;
-    height: 100%; */
+    width: 100%;
+    height: 100%;
     background-color: hsl(0, 0%, 95%);
 }
 
@@ -338,20 +338,26 @@ body {
     font-family: 'Barlow', sans-serif;
     font-size: .75em;
     text-align: center;
-    color: hsl(168, 45%, 32%);
+    color: hsl(168, 34%, 41%);
     padding-bottom: 1em;
 }
 
 .attribution a {
     text-decoration: none;
-    color: hsla(51, 100%, 49%, 0.85);
+    color: hsl(168, 45%, 32%);
 }
 
 /* Desktop Styles */
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 950px) {
     /* Turn off mobile nav */
     .hamburger-menu {
         display: none;
+    }
+
+    /* Main Container */
+    .container {
+        max-width: 1440px;
+        margin: 0 auto;
     }
 
     /* Header Section */
@@ -456,7 +462,7 @@ body {
     }
 
     .card-full-info {
-        padding: 0 7.5 em 2em ;  
+        padding: 0 9em 3em 9em  ;  
     }
 
     /* Testimonial Section */
@@ -473,8 +479,13 @@ body {
         padding: 0 .85em;       /* border: 2px solid red; */
     }
 
+    /* Footer Section */
     .footer-img-container {
         display: flex;
+    }
+
+    .footer-logo {
+        padding-top: 4em;
     }
 
     .footer-nav {
