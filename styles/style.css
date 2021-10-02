@@ -612,16 +612,6 @@ body {
         padding: 0 1.583em; 
     }
 
-    .social-media {
-        justify-content: center;
-        padding-top: 4.88em;
-        margin: 0;
-    }
-
-    .social-media li a {
-        padding: 0 .77em;
-    } 
-
     .footer-link a:hover,
     .social-media svg:hover,
     .attribution a:hover {
