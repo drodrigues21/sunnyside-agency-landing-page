@@ -396,7 +396,7 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        min-height: 62.5vh;
+        min-height: 44.44em;
     }
 
     .navbar-container {
