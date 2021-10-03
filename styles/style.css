@@ -400,11 +400,7 @@ body {
     }
 
     .navbar-container {
-        padding: 3em 3em 0 3.5em;
-    }
-
-    .logo img {
-        transform: scale(1.35);
+        padding: 2.5em 3em 0 3.5em;
     }
  
     .desktop-nav {
@@ -450,7 +446,7 @@ body {
 
     /* Header Hero */
     .header-title-container {
-        margin: 5em 0 0;
+        margin: 5.83em 0 00;
     }
 
     .header-title {
@@ -458,10 +454,6 @@ body {
         line-height: 69px;
         letter-spacing: 8.75px;
         margin-bottom: 1.2em;
-    }
-
-    .arrow-container img {
-        width: 2.22em;
     }
 
     /* Card Section */
@@ -485,7 +477,14 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
+    }
+
+    .card-left-text {
         padding: 0em 5.55em 0 9.16em; 
+    }
+
+    .card-right-text {
+        padding: 0em 9.16em 0 5.55em;
     }
     
     .card-info h2 {
@@ -498,8 +497,8 @@ body {
         font-size: 1em;
         line-height: 30px;
         margin: 0;
-        padding-bottom: 40px;
-        padding-top: 32px;
+        padding-bottom: 2.22em;
+        padding-top: 1.77em;
     }
 
     .learn-more {
@@ -520,7 +519,6 @@ body {
     }
 
     .card-full-info {
-        bottom: 3.27em;
         padding: 0 10.5em 0 10.5em;
     }
 
@@ -530,6 +528,7 @@ body {
 
     .card-full-info p {
         font-size: .88em;
+        padding-bottom: 59px;
     }
 
     /* Testimonial Section */
@@ -584,7 +583,7 @@ body {
     }
 
     .footer-logo {
-        padding-top: 4em;
+        padding-top: 4.5em;
     }
 
     .footer-logo svg {
@@ -592,8 +591,9 @@ body {
     }
 
     .footer-nav {
-        padding-top: 40px;
-        padding-bottom: 0;
+        padding-top: 2.22em;
+        padding-bottom: 4.8em;
+        margin: 0;
     }
 
     .footer-links {
